@@ -14,9 +14,6 @@ finish-args:
   - --device=dri
   # Network access for Valkey connections
   - --share=network
-  # Desktop integration
-  #- --talk-name=org.freedesktop.Notification
-  #- --talk-name=org.freedesktop.Secrets
 
 build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
@@ -40,6 +37,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/ben-oswald/vk_commander
-        tag: v0.0.5
-        commit: ab9b790b981a8539c716c51847e73d0c4838abf3
+        tag: v0.0.6
+        commit: 0c6bb56b6535fafe75d1dd3ffcab2f94909619c8
       - generated-sources.json
