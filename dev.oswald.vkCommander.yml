@@ -37,6 +37,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/ben-oswald/vk_commander
-        tag: v0.0.7
-        commit: 0f420339260c59902bd878aff27c6cdc577693d7
+        tag: v0.0.8
+        commit: f42363aa4ae34dba18995ddc90617a92d50deab1
       - generated-sources.json
